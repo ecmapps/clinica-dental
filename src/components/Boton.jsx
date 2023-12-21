@@ -3,7 +3,7 @@ import React from 'react'
 export const Boton = ({props}) => {
 
     return(
-        <button className='bg-danube-700 rounded-lg px-2 py-1 m-2 text-white border-inherit border-2 hover:bg-transparent hover:text-black hover:border-danube-700 duration-100' href={props.href} disabled={props.disabled}>
+        <button className='text-md font-medium rounded-lg px-2 py-1 m-2 border-transparent border-2 hover:bg-danube-700 hover:border-danube-100 duration-200 hover:text-white' href={props.href} disabled={props.disabled}>
             {props.text}
         </button>
     )
